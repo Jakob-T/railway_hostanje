@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/railway_hostanje/public/styles/style.css">
+
+<h1>Galerija slika</h1>
+<section class="gallery">
+    <% images.forEach(image=> { %>
+        <figure>
+            <img src="<%= image.url %>" alt="<%= image.title %>">
+            <figcaption>
+                <%= image.title %>
+            </figcaption>
+        </figure>
+        <% }); %>
+</section>
