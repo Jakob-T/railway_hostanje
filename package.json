@@ -1,23 +1,15 @@
 {
-  "name": "hostanje_weba",
+  "name": "lv3",
   "version": "1.0.0",
-  "description": "HOSTANJE STRANICE : https://jakob-t.github.io/hostanje_weba/",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jakob-T/hostanje_weba.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jakob-T/hostanje_weba/issues"
-  },
-  "homepage": "https://github.com/Jakob-T/hostanje_weba#readme",
+  "description": "",
   "dependencies": {
     "express": "^5.1.0"
   }
